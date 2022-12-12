@@ -351,4 +351,22 @@ footer {
     width: 40px;
     cursor: pointer;
   }
+}
+@media (max-width: 1390px) and (max-width: 1280px) and (max-width: 930px) and (max-width: 800px) and (max-width: 600px) {
+  nav {
+    justify-content: space-between;
+    padding: 0px 5px;
+  }
+  .nav-logo-container {
+    width: 180px;
+    align-items: flex-start;
+  }
+  .nav-logo-container img {
+    width: 100px;
+    height: 130px;
+  }
+  .nav-logo-container .nav-title {
+    font-size: 1.3rem;
+    line-height: 23px;
+  }
 }/*# sourceMappingURL=style.css.map */
