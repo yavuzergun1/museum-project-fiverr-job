@@ -1,6 +1,7 @@
 @import "../home/style.scss";
 @import "../visit/style.scss";
 
+
 .get-info {
   font-weight: 400 !important;
   font-size: 32px !important;
@@ -31,13 +32,16 @@
     color: #ffffff;
   }
 }
-.down-get{
-    padding: 155px 0px ;
+.down-get {
+  padding: 155px 0px;
 }
 @media (max-width: 522px) {
-.get-info{
-  font-size: 1.2rem !important;
+  .get-info {
+    font-size: 1.2rem !important;
     line-height: 34px !important;
-
-}
+  }
+  .down-get {
+    width: 100%;
+ 
+  }
 }
