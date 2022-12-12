@@ -10,7 +10,7 @@
   color: #ffffff;
 }
 .exh-card-info-container {
-    margin-top: 15px;
+  margin-top: 15px;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -19,6 +19,26 @@
   text-align: justify;
   color: #000000;
 }
+.exh-card {
+  height: 1150px;
+}
+@media (max-width: 1364px) {
 .exh-card{
-    height: 1070px;
+height: auto;
+}
+@media (max-width: 750px) {
+.exh-card{
+  width: 90%;
+  img{
+    width: 100%;
+  }
+}
+}
+@media (max-width: 502px) {
+.exh-card-info-container{
+  p{
+    font-size: 1.2rem;
+  }
+}
+}
 }
