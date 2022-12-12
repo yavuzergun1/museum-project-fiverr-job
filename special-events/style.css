@@ -1562,4 +1562,15 @@ footer {
     line-height: 34px;
     font-size: 1.3rem;
   }
+}
+@media (max-width: 1328px) and (max-width: 800px) and (max-width: 501px) {
+  .sp-down {
+    width: 100%;
+  }
+  .sp-down a {
+    width: 90%;
+  }
+  .sp-down-button {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
