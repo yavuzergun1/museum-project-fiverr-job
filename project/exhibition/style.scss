@@ -1,0 +1,24 @@
+@import "../home/style.scss";
+
+.exhibitions {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  color: #ffffff;
+}
+.exh-card-info-container {
+    margin-top: 15px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: justify;
+  color: #000000;
+}
+.exh-card{
+    height: 1070px;
+}

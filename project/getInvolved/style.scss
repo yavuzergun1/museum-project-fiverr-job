@@ -1,0 +1,36 @@
+@import "../home/style.scss";
+@import "../visit/style.scss";
+
+.get-info {
+  font-weight: 400 !important;
+  font-size: 32px !important;
+  padding: 0px 45px;
+}
+.get-info-title {
+  padding: 0px 45px;
+}
+.get-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 55px 0px;
+  button {
+    width: 609px;
+    height: 78px;
+    left: 150px;
+    top: 1594px;
+    background: #177269;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+.down-get{
+    padding: 155px 0px ;
+}

@@ -1,0 +1,31 @@
+@import "../home/style.scss";
+@import "../visit/style.scss";
+
+.contact-first-section {
+  background-color: #ffff;
+  padding: 50px 50px 150px 50px;
+ 
+}
+.form-img{
+    width: 80%;
+}
+.contact-title {
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+}
+.contact-info {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+.second-title{
+    margin-top: 185px;
+}
+.last-info{
+    width: 70%;
+}
+.last-title{
+    margin-top: 55px;
+}
