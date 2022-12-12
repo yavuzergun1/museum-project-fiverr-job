@@ -220,6 +220,9 @@ nav {
   display: flex;
   justify-content: center;
 }
+.more-events a {
+  width: 100%;
+}
 .more-events button {
   width: 100%;
   height: 100px;
@@ -417,7 +420,7 @@ footer {
     font-size: 1.1rem;
     text-align: left;
   }
-  .more-events p {
+  .more-events button {
     font-size: 1.2rem;
   }
   .footer-left, .footer-right {
@@ -655,6 +658,9 @@ nav {
   display: flex;
   justify-content: center;
 }
+.more-events a {
+  width: 100%;
+}
 .more-events button {
   width: 100%;
   height: 100px;
@@ -852,7 +858,7 @@ footer {
     font-size: 1.1rem;
     text-align: left;
   }
-  .more-events p {
+  .more-events button {
     font-size: 1.2rem;
   }
   .footer-left, .footer-right {
@@ -1090,6 +1096,9 @@ nav {
   display: flex;
   justify-content: center;
 }
+.more-events a {
+  width: 100%;
+}
 .more-events button {
   width: 100%;
   height: 100px;
@@ -1287,7 +1296,7 @@ footer {
     font-size: 1.1rem;
     text-align: left;
   }
-  .more-events p {
+  .more-events button {
     font-size: 1.2rem;
   }
   .footer-left, .footer-right {
@@ -1525,6 +1534,9 @@ nav {
   display: flex;
   justify-content: center;
 }
+.more-events a {
+  width: 100%;
+}
 .more-events button {
   width: 100%;
   height: 100px;
@@ -1722,7 +1734,7 @@ footer {
     font-size: 1.1rem;
     text-align: left;
   }
-  .more-events p {
+  .more-events button {
     font-size: 1.2rem;
   }
   .footer-left, .footer-right {
@@ -2036,4 +2048,10 @@ footer {
 
 .last-title {
   margin-top: 55px;
+}
+
+@media (max-width: 522px) {
+  .contact-info {
+    font-size: 1.3rem;
+  }
 }/*# sourceMappingURL=style.css.map */
