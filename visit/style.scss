@@ -38,14 +38,12 @@
     font-size: 32px;
     line-height: 44px;
   }
-
- 
 }
 .vis-button-container {
   width: 100%;
   display: flex;
   justify-content: center;
-   button {
+  button {
     width: 609px;
     height: 78px;
     left: 150px;
@@ -101,4 +99,34 @@
     width: 68%;
     margin-bottom: 55px;
   }
+  @media (max-width: 750px) {
+.vis-left-container{
+  width: 96%;
+}
+  }
+    @media (max-width: 500px) {
+.vis-up-container{
+  p{
+    font-size: 1.6rem;
+    text-align: justify;
+  }
+}
+.vis-button-container{
+
+  button{
+    font-size: 1.3rem;
+  }
+}
+.vis-down-info-container{
+ p{
+text-align: center;
+   font-size: 1.3rem;
+  }
+}
+.vis-right-container{
+  font-size: 1.3rem;
+p{
+}
+}
+    }
 }
