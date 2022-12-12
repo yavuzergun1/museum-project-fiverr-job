@@ -2059,6 +2059,12 @@ footer {
     line-height: 34px !important;
   }
   .down-get {
+    width: 100% !important;
+  }
+  .down-get a {
+    width: 100%;
+  }
+  .down-get button {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

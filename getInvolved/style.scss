@@ -41,7 +41,12 @@
     line-height: 34px !important;
   }
   .down-get {
-    width: 100%;
- 
+    width: 100% !important;
+ a{
+  width: 100%;
+ }
+ button{
+  width: 100%;
+ }
   }
 }
