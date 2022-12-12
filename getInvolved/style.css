@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   width: 100%;
   background-color: #1e1e1e;
@@ -439,6 +443,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   width: 100%;
   background-color: #1e1e1e;
@@ -870,6 +878,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   width: 100%;
   background-color: #1e1e1e;
@@ -1299,6 +1311,10 @@ footer {
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 body {
@@ -1789,7 +1805,7 @@ footer {
 .ex-card {
   margin-top: 95px;
   width: 100%;
-  height: 900px;
+  height: 1100px;
 }
 .ex-card img {
   width: 100%;
@@ -1811,7 +1827,7 @@ footer {
 }
 
 .second-card {
-  height: 1500px;
+  height: 2100px;
 }
 
 .third-card {

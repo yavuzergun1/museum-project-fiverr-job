@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   width: 100%;
   background-color: #1e1e1e;
@@ -439,6 +443,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   width: 100%;
   background-color: #1e1e1e;
@@ -868,6 +876,10 @@ footer {
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 body {
@@ -1313,9 +1325,27 @@ footer {
 }
 
 .exh-card {
-  height: 1070px;
+  height: 1150px;
 }
 
+@media (max-width: 1364px) {
+  .exh-card {
+    height: auto;
+  }
+}
+@media (max-width: 1364px) and (max-width: 750px) {
+  .exh-card {
+    width: 90%;
+  }
+  .exh-card img {
+    width: 100%;
+  }
+}
+@media (max-width: 1364px) and (max-width: 502px) {
+  .exh-card-info-container p {
+    font-size: 1.2rem;
+  }
+}
 .explore {
   margin-top: 20px;
 }
@@ -1340,7 +1370,7 @@ footer {
 .ex-card {
   margin-top: 95px;
   width: 100%;
-  height: 900px;
+  height: 1100px;
 }
 .ex-card img {
   width: 100%;
@@ -1362,7 +1392,7 @@ footer {
 }
 
 .second-card {
-  height: 1500px;
+  height: 2100px;
 }
 
 .third-card {

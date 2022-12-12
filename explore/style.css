@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   width: 100%;
   background-color: #1e1e1e;
@@ -437,6 +441,10 @@ footer {
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 body {
