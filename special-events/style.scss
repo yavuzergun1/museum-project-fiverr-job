@@ -9,7 +9,6 @@
 }
 .sp-cards-container {
   width: 98%;
-  height: 1850px;
   margin-top: 90px;
   display: flex;
   justify-content: space-evenly;
@@ -17,6 +16,7 @@
 }
 .sp-upcard-container{
     width: 49%;
+    margin-bottom: 55px;
     img{
         width: 100%;
     }
@@ -73,6 +73,7 @@
 }
 .sp-downcard-container{
     width: 434px;
+    margin-bottom: 55px;
     img{
         width: 100%;
     }
@@ -80,4 +81,23 @@
 .down-button{
 width: 495px;
 margin-bottom: 95px;
+}
+@media (max-width: 1328px) {
+.sp-upcards-container{
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.sp-upcard-container{
+  width: 96%;
+}
+@media (max-width: 800px) {
+.sp-card-info-container{
+p{
+    line-height: 34px;
+
+  font-size: 1.3rem;
+} 
+}
+}
 }
