@@ -84,7 +84,6 @@ nav {
   width: 100%;
   height: 69px;
   left: 0px;
-  top: 225px;
   background: #177269;
   padding-top: 10px;
 
@@ -321,11 +320,13 @@ footer {
       footer {
         height: 750px;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
       }
       .footer-left {
+        width: 100%;
         justify-content: space-between;
+
       }
       @media (max-width: 800px) {
         .nav-link,
@@ -338,23 +339,80 @@ footer {
           cursor: pointer;
         }
         @media (max-width: 600px) {
-          nav{
+          nav {
             justify-content: space-between;
             padding: 0px 5px;
           }
-        .nav-logo-container{
-          width: 180px;
-          align-items: flex-start;
-          img{
-            width:100px;
-            height: 130px;
-          }
-          .nav-title{
-            font-size: 1.3rem;
+          .nav-logo-container {
+            width: 180px;
+            align-items: flex-start;
+            img {
+              width: 100px;
+              height: 130px;
+            }
+            .nav-title {
+              font-size: 1.3rem;
               line-height: 23px;
-
+            }
           }
-        }
+          .top-section-title {
+            h3 {
+              font-size: 0.7rem;
+            }
+          }
+          .first-text-in-image {
+            font-size: 1rem;
+          }
+          .second-section {
+            h2 {
+              font-size: 1.8rem;
+            }
+            p {
+              font-size: 1.2rem;
+              line-height: 24px;
+            }
+          }
+          .second-text-in-image {
+            h3 {
+              font-size: 1.2rem;
+            }
+          }
+          .card-inside-text {
+            font-size: 1.4rem;
+          }
+          .card-container{
+            width: 100%;
+          }
+          .card-info-container {
+            padding: 0px;
+            p:first-child {
+              font-size: 1.2rem;
+            }
+            p:nth-child(2) {
+              margin-left: 8px;
+              white-space: wrap;
+              font-size: 1.1rem;
+              text-align: left;
+            }
+          }
+          .more-events{
+            p{
+              font-size: 1.2rem;
+            }
+          }
+          .footer-left{
+justify-content: space-between;          }
+          .footer-map{
+            width: 100%;
+          }
+          .column{
+            .bold{
+              font-size: 1rem;
+            }
+            p{
+              font-size: 1rem;
+            }
+          }
         }
       }
     }
