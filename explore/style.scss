@@ -79,6 +79,9 @@
 }
 
 @media (max-width: 600px) {
+  .exhibitions {
+    font-size: 2rem;
+  }
   .ex-card {
     height: 600px;
   }
@@ -94,6 +97,6 @@
     height: 1000px;
   }
   .third-card{
-    height: 1500px;
+    height: 1700px;
   }
 }
