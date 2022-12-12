@@ -326,7 +326,6 @@ footer {
       .footer-left {
         width: 100%;
         justify-content: space-between;
-
       }
       @media (max-width: 800px) {
         .nav-link,
@@ -380,7 +379,7 @@ footer {
           .card-inside-text {
             font-size: 1.4rem;
           }
-          .card-container{
+          .card-container {
             width: 100%;
           }
           .card-info-container {
@@ -395,21 +394,22 @@ footer {
               text-align: left;
             }
           }
-          .more-events{
-            p{
+          .more-events {
+            p {
               font-size: 1.2rem;
             }
           }
-          .footer-left{
-justify-content: space-between;          }
-          .footer-map{
+          .footer-left {
+            justify-content: space-between;
+          }
+          .footer-map {
             width: 100%;
           }
-          .column{
-            .bold{
+          .column {
+            .bold {
               font-size: 1rem;
             }
-            p{
+            p {
               font-size: 1rem;
             }
           }

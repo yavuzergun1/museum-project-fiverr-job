@@ -1,5 +1,6 @@
 @import "../home/style.scss";
 @import "../exhibition/style.scss";
+
 .explore {
   margin-top: 20px;
 }
@@ -22,14 +23,14 @@
 .ex-card {
   margin-top: 95px;
   width: 100%;
-  height: 1200px;
+  height: 900px;
   img {
     width: 100%;
     transform: translate(0px, -4px);
   }
 }
 .ex-card-info-container {
-  width: 60%;
+  width: 80%;
   margin: auto;
   margin-top: 40px;
   p {
@@ -42,7 +43,7 @@
   }
 }
 .second-card {
-  height: 2000px;
+  height: 1500px;
 }
 .third-card {
   height: 2200px;
@@ -62,17 +63,37 @@
     text-align: justify;
   }
 }
-.ex-up{
-  img{
+.ex-up {
+  img {
     width: 32%;
   }
 }
 
-.ex-down{
-  img:first-child{
+.ex-down {
+  img:first-child {
     width: 46%;
   }
-  img:nth-child(2){
+  img:nth-child(2) {
     width: 34%;
+  }
+}
+
+@media (max-width: 600px) {
+  .ex-card {
+    height: 600px;
+  }
+  .ex-card-info-container {
+    width: 96%;
+    p {
+      font-size: 1.3rem;
+      line-height: 34px;
+      text-align: justify;
+    }
+  }
+  .second-card{
+    height: 1000px;
+  }
+  .third-card{
+    height: 1500px;
   }
 }
