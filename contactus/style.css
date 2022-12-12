@@ -4,6 +4,10 @@
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   width: 100%;
   background-color: #1e1e1e;
@@ -354,6 +358,10 @@ footer {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   width: 100%;
   background-color: #1e1e1e;
@@ -704,6 +712,10 @@ footer {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   width: 100%;
   background-color: #1e1e1e;
@@ -1052,6 +1064,10 @@ footer {
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
@@ -1491,6 +1507,17 @@ footer {
 }
 .ex-last-text p {
   text-align: justify;
+}
+
+.ex-up img {
+  width: 32%;
+}
+
+.ex-down img:first-child {
+  width: 46%;
+}
+.ex-down img:nth-child(2) {
+  width: 34%;
 }
 
 .vis-first-section {
