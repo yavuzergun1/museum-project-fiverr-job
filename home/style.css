@@ -11,7 +11,7 @@ a {
 #menuToggle {
   display: none;
   position: relative;
-  top: 0px;
+  top: 60px;
   right: -40px;
   z-index: 1;
   -webkit-user-select: none;
