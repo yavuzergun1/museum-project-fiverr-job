@@ -10,7 +10,7 @@ a {
 
 #menuToggle
 {
-  display: block;
+  display: none;
   position: relative;
   top: 0px;
   right: -40px;
@@ -491,6 +491,9 @@ footer {
         .nav-link,
         .nav-search {
           display: none;
+        }
+        #menuToggle{
+          display: block;
         }
         .nav-hamburger {
           display: block;
