@@ -13,7 +13,7 @@ a {
   display: none;
   position: relative;
   top: -10px;
-  right: -40px;
+  right: 5px;
     height: 30px;
 
   z-index: 1;
@@ -212,9 +212,7 @@ nav {
   height: 40px;
   cursor: pointer;
 }
-.nav-hamburger {
-  display: none;
-}
+
 .top-section {
   width: 100%;
   display: flex;
@@ -496,16 +494,11 @@ footer {
         #menuToggle{
           display: block;
         }
-        .nav-hamburger {
-          display: block;
-          width: 40px;
-          // margin-top: -150px;
-          cursor: pointer;
-        }
+  
         @media (max-width: 600px) {
     
           nav {
-            justify-content: space-around;
+            justify-content: space-between;
             padding: 0px 5px;
             height: 150px;
           }
