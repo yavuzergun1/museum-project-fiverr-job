@@ -17,7 +17,6 @@ a {
   z-index: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
-   -ms-user-select: none;
        user-select: none;
 }
 
@@ -465,7 +464,7 @@ footer {
 }
 @media (max-width: 1390px) and (max-width: 1280px) and (max-width: 930px) and (max-width: 800px) {
   .nav-link,
-.nav-search {
+  .nav-search {
     display: none;
   }
   #menuToggle {
@@ -569,7 +568,6 @@ a {
   z-index: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
-   -ms-user-select: none;
        user-select: none;
 }
 
@@ -1017,7 +1015,7 @@ footer {
 }
 @media (max-width: 1390px) and (max-width: 1280px) and (max-width: 930px) and (max-width: 800px) {
   .nav-link,
-.nav-search {
+  .nav-search {
     display: none;
   }
   #menuToggle {
